@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="58" y="79" w="1227" h="654">
+  <window x="-14" y="55" w="1227" h="654">
     <editing-scenario>os9z7cTCNJN</editing-scenario>
     <view>task</view>
     <change-tracking/>
@@ -13,9 +13,9 @@
         <column name="Title" width="191"/>
         <column name="Effort" width="70"/>
         <expanded-items idrefs="t7"/>
-        <selected-items-at-filter-time idrefs="t4 t7 t2 t5 t8 t3 t6"/>
+        <selected-items-at-filter-time idrefs="t4 t7 t3 t6 t2 t5"/>
       </outline>
-      <gantt-view x="380" y="0" w="589" h="555">
+      <gantt-view x="350" y="0" w="589" h="555">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -67,7 +67,7 @@
         <column name="Type" width="49"/>
         <column name="Resource" width="150"/>
         <column name="#" width="75"/>
-        <selected-items-at-filter-time idrefs="r3 r2"/>
+        <selected-items-at-filter-time idrefs="r2"/>
       </outline>
       <timeline x="-98" y="0" w="561" h="555">
         <offtime-display>none</offtime-display>
@@ -136,7 +136,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>14</next-task-id>
+    <next-task-id>24</next-task-id>
     <next-resource-id>4</next-resource-id>
     <scenario id="os9z7cTCNJN" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
@@ -192,6 +192,18 @@ End:</group-table-style>
         </value>
       </style>
     </not-editable-style>
+    <publish publish-allocations="true" subscribe-to-allocations="true">
+      <key>serverAccount</key>
+      <string>pV95BSPTiar</string>
+      <key>active</key>
+      <string>YES</string>
+      <key>serverURL</key>
+      <string>https://dav.jianguoyun.com:443/OmniPlan/</string>
+      <key>class</key>
+      <string>OPWebDAVChangeSyncAction</string>
+      <key>uuid</key>
+      <string>phofDGO6Oz0</string>
+    </publish>
     <subscribe-refresh>0</subscribe-refresh>
     <leveling>
       <constrains-completion-date/>

@@ -143,7 +143,7 @@
       </value>
     </style>
   </task>
-  <critical-path root="-1" enabled="false" resources="false">
+  <critical-path root="-1" enabled="true" resources="false">
     <color r="1" g="0.5" b="0.5"/>
   </critical-path>
 </scenario>

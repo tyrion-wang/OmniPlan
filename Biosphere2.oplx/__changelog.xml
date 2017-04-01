@@ -109,6 +109,25 @@
     <change idref="t4" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
     <change idref="t5" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Cherry" date="2017-04-01T05:43:50.696Z" timestamp="2017-04-01T05:43:50.696Z">
+    <change idref="t-1" attribute="criticalPathProperties" type="dict" from="{
+    color =     {
+        b = &quot;0.5&quot;;
+        g = &quot;0.5&quot;;
+        r = 1;
+    };
+    enabled = 0;
+    root = &quot;-1&quot;;
+}" to="{
+    color =     {
+        b = &quot;0.5&quot;;
+        g = &quot;0.5&quot;;
+        r = 1;
+    };
+    enabled = 1;
+    root = &quot;-1&quot;;
+}" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Cherry" date="2017-04-01T03:31:13.895Z" timestamp="2017-04-01T03:31:13.895Z">
     <change idref="r2" to="r-1" to-position="1" resolved="yes">
       <change idref="r2" attribute="name" type="string" to="Cherry"/>
@@ -120,5 +139,9 @@
   </metadata-change-set>
   <metadata-change-set user="Cherry" date="2017-04-01T03:24:21.048Z" timestamp="2017-04-01T03:24:21.048Z">
     <change idref="m1" attribute="fixedDate" type="date" from="2017-03-31T16:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Cherry" date="2017-04-01T05:55:45.362Z" timestamp="2017-04-01T05:55:45.362Z">
+    <change idref="m1" attribute="publishAllocations" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="m1" attribute="subscribeToAllocations" type="real" from="0" to="1" resolved="yes"/>
   </metadata-change-set>
 </changelog>
