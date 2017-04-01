@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Cherry" date="2017-04-01T03:23:09.682Z" timestamp="2017-04-01T03:23:09.682Z">
+    <change idref="t7" to="t-1" to-position="0" resolved="yes">
+      <change idref="t7" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t7" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t7" attribute="title" type="string" to="遗传算法"/>
+    </change>
+    <change idref="t1" attribute="title" type="string" from="任务 1" to="生物学研究" resolved="yes"/>
+    <change idref="t1" from="t-1" from-position="0" to="t7" to-position="0" resolved="yes"/>
+    <change idref="t4" to="t7" to-position="1" resolved="yes">
+      <change idref="t4" attribute="title" type="string" to="抽象成可计算模型"/>
+    </change>
+    <change idref="t2" to="t7" to-position="2" resolved="yes">
+      <change idref="t2" attribute="title" type="string" to="算法准备"/>
+    </change>
+    <change idref="t5" to="t7" to-position="3" resolved="yes">
+      <change idref="t5" attribute="title" type="string" to="测试方法、用例"/>
+    </change>
+    <change idref="t3" to="t7" to-position="4" resolved="yes">
+      <change idref="t3" attribute="title" type="string" to="编程验证"/>
+    </change>
+    <change idref="t6" to="t7" to-position="5" resolved="yes">
+      <change idref="t6" attribute="title" type="string" to="测试通过"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Cherry" date="2017-04-01T03:24:06.567Z" timestamp="2017-04-01T03:24:06.567Z">
+    <change idref="t7" attribute="title" type="string" from="遗传算法" to="遗传算法准备阶段" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Cherry" date="2017-04-01T03:27:43.542Z" timestamp="2017-04-01T03:27:43.542Z">
+    <change idref="t1" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+    <change idref="t1" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.211432&quot;;
+        g = &quot;0.458381&quot;;
+        r = &quot;0.988&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t2" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+    <change idref="t2" attribute="internalPrerequisitesString" type="string" to="1FS" resolved="yes"/>
+    <change idref="t2" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.211432&quot;;
+        g = &quot;0.458381&quot;;
+        r = &quot;0.988&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t3" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
+    <change idref="t3" attribute="internalPrerequisitesString" type="string" to="5FS" resolved="yes"/>
+    <change idref="t3" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.211432&quot;;
+        g = &quot;0.458381&quot;;
+        r = &quot;0.988&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t4" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
+    <change idref="t4" attribute="internalPrerequisitesString" type="string" to="1FS" resolved="yes"/>
+    <change idref="t4" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.211432&quot;;
+        g = &quot;0.458381&quot;;
+        r = &quot;0.988&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t5" attribute="internalPrerequisitesString" type="string" to="4FS" resolved="yes"/>
+    <change idref="t5" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.211432&quot;;
+        g = &quot;0.458381&quot;;
+        r = &quot;0.988&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t6" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t6" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t6" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t6" attribute="internalPrerequisitesString" type="string" to="3FS" resolved="yes"/>
+    <change idref="t6" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t6" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.211432&quot;;
+        g = &quot;0.458381&quot;;
+        r = &quot;0.988&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t7" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.211432&quot;;
+        g = &quot;0.458381&quot;;
+        r = &quot;0.988&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Cherry" date="2017-04-01T03:28:22.181Z" timestamp="2017-04-01T03:28:22.181Z">
+    <change idref="t5" attribute="internalPrerequisitesString" type="string" from="4FS" to="2FS, 4FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Cherry" date="2017-04-01T03:31:13.895Z" timestamp="2017-04-01T03:31:13.895Z">
+    <change idref="t1" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t2" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t3" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t4" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t5" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="Cherry" date="2017-04-01T03:31:13.895Z" timestamp="2017-04-01T03:31:13.895Z">
+    <change idref="r2" to="r-1" to-position="1" resolved="yes">
+      <change idref="r2" attribute="name" type="string" to="Cherry"/>
+    </change>
+    <change idref="r1" attribute="name" type="string" from="资源 1" to="Tyrion" resolved="yes"/>
+  </resource-change-set>
+  <metadata-change-set user="Cherry" date="2017-04-01T03:23:09.682Z" timestamp="2017-04-01T03:23:09.682Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2017-03-31T16:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Cherry" date="2017-04-01T03:24:21.048Z" timestamp="2017-04-01T03:24:21.048Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2017-03-31T16:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
